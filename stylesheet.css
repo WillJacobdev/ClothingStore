@@ -1,0 +1,261 @@
+@import url('https://fonts.googleapis.com/css?family=Playfair+Display+SC|Raleway');
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+html {
+	background-color: #2F395C;
+}
+
+body {
+	background-color: #2F395C;
+}
+
+header {
+	width: 100%;
+	background-color: #2F395C;
+}
+
+h2 {
+	color: white !important;
+	font-family: 'Playfair Display SC' !important;
+	margin-left: 20px !important;
+	font-size: 2em;
+	display: inline-block;
+}
+
+header p {
+	display: inline-block;
+	margin-left: 10px;
+	color: white
+}
+
+header p a {
+	color: white !important;
+	text-decoration: none;
+	font-family: 'Raleway', sans-serif, !important;
+
+}
+
+header p a:hover {
+	text-decoration: underline;
+}
+
+main {
+	width: 100%;
+	overflow: hidden;
+	background-color: #2F395C;
+}
+
+#shoppingcart {
+	float: right;
+	margin-right: 20px;
+	margin-top: 10px;
+	font-size: 1.5em;
+}
+
+#shoppingcart a{
+	transition: .5s
+}
+
+#shoppingcart a:hover {
+	color: #687192 !important;
+}
+
+#banner {
+	width: 100%;
+	overflow: hidden;
+	border-bottom: 2px solid #2F395C;
+}
+
+#bannerhead {
+	background-image: url(images/banner.jpg);
+	width: 100%;
+	height: 200px;
+	margin-bottom: 10px;
+}
+
+#gendertext {
+		position: relative;
+	background-color: rgba(0, 0, 0, 0.7);
+	color: white;
+	text-align: center;
+	width: 100%;
+	top: 10px;
+}
+
+#bannertext {
+	position: relative;
+	background-color: rgba(0, 0, 0, 0.7);
+	color: white;
+	text-align: center;
+	font-family: 'Raleway', sans-serif, !important;
+	width: 90%;
+	margin: auto;
+	top: 10px;
+}
+
+#bannertitle {
+	font-size: 1.5em;
+}
+
+.selection {
+	width: 200px;
+	display: inline-block;
+	font-family: 'Raleway', sans-serif, !important;
+
+}
+
+.options {
+	background-color: #bbbbbb; 
+}
+
+#genderad {
+	width: 90%;
+	margin: auto;
+}
+
+.gender {
+margin-top: 10px;
+margin-bottom: 10px;
+background-color: #2F395C; 
+}
+
+#men {
+	background-image: url(images/mjacket4.jpg);
+	width: 50%;
+	height: 500px;
+	display: block;
+	transition: 1s;
+}
+
+#men:hover {
+	filter: grayscale(100%);
+	transform: scale(0.95);
+}
+
+#women {
+	background-image: url(images/fjacket8.jpg);
+	width: 50%;
+	height: 500px;
+	display: block;
+	transition: 1s;
+}
+
+#women:hover {
+	filter: grayscale(100%);
+	transform: scale(0.95);
+}
+
+#social {
+	position: fixed;
+}
+
+#social ul {
+	list-style: none;
+}
+
+#social ul li a {
+	color: black;
+	font-size: 2em;
+		z-index: 9999999 !important;
+	transition: .5s;
+}
+
+#social ul li a:hover {
+	color: #687192;
+	font-size: 2.3em;
+}
+
+#checkspot {
+	max-width: 700px;
+	margin: auto;
+	padding-bottom: 20px;
+}
+
+footer {
+	padding-top: 10px;
+	background-color: black;
+	color: white;
+}
+
+footer p {
+	margin-left: 10px;
+}
+
+.card {
+	height: 775px !important;
+	display: inline-block;
+	border: none !important;
+	border-top: 2px solid black !important;
+	border-bottom: 2px solid black !important;
+	background-color: #687192 !important;
+}
+
+.card-product:hover .card-product-img-wrapper img {
+
+}
+
+.card-product:hover .card-product-img-wrapper .button {
+  -webkit-transform: translateY(-3rem);
+      -ms-transform: translateY(-3rem);
+          transform: translateY(-3rem);
+}
+
+.card-product-img-wrapper {
+  margin-bottom: 1.375rem;
+  position: relative;
+  overflow: hidden;
+}
+
+.card-product-img-wrapper .button {
+  transition: all 0.2s ease;
+  background-color: #767676;
+  padding: 1rem 0.5rem;
+  bottom: -3rem;
+  -webkit-transform: translateY(3rem);
+      -ms-transform: translateY(3rem);
+          transform: translateY(3rem);
+  position: absolute;
+  z-index: 2;
+  color: #fefefe;
+  margin-bottom: 0;
+}
+
+.card-product-img-wrapper .button:hover {
+  background-color: #1779ba;
+}
+
+.card-product-img-wrapper img {
+  transition: all 0.2s ease;
+
+  width: 100%;
+  z-index: 2;
+  overflow: hidden;
+}
+
+.card-product-img-wrapper img:hover {
+  filter: grayscale(100%);
+}
+
+.card-section a{
+	color: black !important;
+}
+
+.card-product-img-wrapper .card-product-name {
+  font-size: 1.375rem;
+  color: black !important;
+}
+
+.card-product-img-wrapper .card-product-price {
+  font-weight: bold;
+}
+
+.card-product-img-wrapper .card-product-description {
+  color: #8a8a8a;
+  font-size: 0.875rem;
+  margin-bottom: 0;
+}
+
